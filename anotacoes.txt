@@ -1,0 +1,10 @@
+widgets -> blocos 
+home -> bloco principal
+scaffeld:{
+    appbar:elemento azul claro no app
+    body: parte branca(corpo)
+}
+
+flutter create <nome do app>
+flutter emulator -> mostra os emuladores
+flutter emulator --launch <emulador> executa o emulador
