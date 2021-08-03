@@ -25,7 +25,18 @@ class ListaScreen extends StatelessWidget{ // estruturando em partes o layout,em
          appBar: new AppBar(
            title: new Text('Lista de Tarefas....'),
          ),
-        body: Column(),
+        body: Column(
+          children : <Widget>[
+            new Row(
+              children :[
+                IconButton(
+                  icon: new Icon(Icons.check_box),
+                  onPressed: (){},//efeito do botão ao pressionar
+                )
+              ]
+            )
+          ]
+        ),
       );
   }
   
