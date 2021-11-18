@@ -31,7 +31,16 @@ class ListaScreen extends StatelessWidget{ // estruturando em partes o layout,em
               children :[
                 IconButton(
                   icon: new Icon(Icons.check_box),
+                  iconSize: 42.0,// tamanho do botao 
                   onPressed: (){},//efeito do botão ao pressionar
+                ),
+                new Column(// adc colunas na linha
+                  crossAxisAlignment:CrossAxisAlignment.center , // alinha elemento ao centro
+                  children: <Widget>[
+                    Text("lavar Carro"),
+                    Text("02/08/2021")
+                  ],
+
                 )
               ]
             )
