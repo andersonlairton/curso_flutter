@@ -26,6 +26,8 @@ class ListaScreen extends StatelessWidget{ // estruturando em partes o layout,em
            title: new Text('Lista de Tarefas....'),
          ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,//alinhando elementos
+          mainAxisSize: MainAxisSize.max,// definindo meu widget com o tamanho maximo do elemento
           children : <Widget>[
             new Row(
               children :[
